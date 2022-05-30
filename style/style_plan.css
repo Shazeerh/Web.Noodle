@@ -1,0 +1,44 @@
+
+/* Fichier de style perso index	*/
+
+/*		Font		*/
+@font-face {
+	font-family: "PriceDown";
+	src: url("../font/PriceDown.otf") format("opentype");
+}
+
+
+/* */
+
+#pointer_plan {
+	position: absolute;
+	top: -10%;
+}
+.content {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+	background: rgb(149,0,255);
+	background: linear-gradient(150deg, rgba(149,0,255,1) 0%, rgba(245,13,228,0.0760679271708683) 48%, rgba(217,142,28,1) 100%);
+}
+.plandusite {
+	position: relative;
+	top: 5%;
+	color: white;
+	font-size: 5rem;
+	font-family: PriceDown;
+	letter-spacing: 2px;
+}
+.content ul {
+	list-style: disc;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	background: linear-gradient(90deg, rgba(253,65,110,1) 0%, rgba(255,252,82,1) 100%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}

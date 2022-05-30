@@ -1,0 +1,59 @@
+/* Fichier de style perso index	*/
+
+/*		Font		*/
+@font-face {
+	font-family: "PriceDown";
+	src: url("../font/PriceDown.otf") format("opentype");
+}
+
+/* 		Texte 		*/
+.content {
+	background: url(../media/bg_presentation.jpg) fixed no-repeat;
+	background-size: cover;
+	text-align: left;
+	color: white;
+}
+.content p {
+	font-family: PriceDown, sans-serif;
+	font-size: 2rem;
+	width: 35%;
+	padding: 20px;
+}
+.ici {
+	position: relative;
+	left: 12%;
+	top: -30px;
+	font-size: 8rem;
+	font-weight: bold;
+	background: linear-gradient(90deg, rgba(253,65,110,1) 0%, rgba(255,252,82,1) 100%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.content button {
+	position: relative;
+	top: 3%;
+	left: 11%;
+	background: none;
+	font-family: fantasy;
+	font-size: 2rem;
+	letter-spacing: 3px;
+	color: white;
+	width: auto;
+	height: auto;
+	border: 1px solid white;
+	box-shadow: 0 0 10px white;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background 0.5s ease-out 0s, color 0.5s ease-out 0s, border 0.5s ease-out 0s, box-shadow 0.5s ease-out 0s;
+}
+.content button:hover {
+	background: white;
+	color: black;
+	border: 1px solid black;
+	box-shadow: 0 0 30px white;
+}
+
+#pointer_pres {
+	position: absolute;
+	top: -10%;
+}

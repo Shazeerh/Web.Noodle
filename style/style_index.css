@@ -1,0 +1,87 @@
+
+
+/* Fichier de style perso index	*/
+
+/*		Font		*/
+@font-face {
+	font-family: "PriceDown";
+	src: url("../font/PriceDown.otf") format("opentype");
+}
+
+
+/*		Texte dans l'image		*/
+
+.content > * {
+	-webkit-text-stroke: 2px black;
+	font-family: PriceDown, sans-serif;
+	font-size: 4rem;
+}
+.content{
+	text-align: center;
+	padding: 0;
+	background: url(../media/bg_1.jpg) fixed no-repeat;
+	background-size: cover;
+}
+.agence_web {
+	display: block;
+	position: absolute;
+	font-size: 8rem;
+	left: 5%;
+	top: 1%;
+	
+}
+.conseil {
+	display: block;
+	position: absolute;
+	top: 15%;
+	left: 55%;
+	font-size: 7rem;
+	color: rgb(236, 136, 24);
+}
+.design {
+	display: block;
+	position: absolute;
+	top: 22%;
+	left: 25%;
+}
+.developpement {
+	display: block;
+	position: absolute;
+	top: 30%;
+	left: 12%;
+	color: rgb(236, 136, 24);
+}
+.e_commerce {
+	display: block;
+	position: absolute;
+	top: 40%;
+	left: 35%;
+}
+.maintenance {
+	display: block;
+	position: absolute;
+	top: 54%;
+	left: 10%;
+	font-size: 6rem;
+	color: rgb(236, 136, 24);
+}
+.and {
+	display: block;
+	position: absolute;
+	top: 58%;
+	font-size: 4rem;
+	left: 58%;
+}
+.seo {
+	display: block;
+	position: absolute;
+	top: 55%;
+	left: 65%;
+	font-size: 5rem;
+	color: rgb(236, 136, 24);
+}
+.fin {
+	display: block;
+	position: absolute;
+	top: 70%;
+}
