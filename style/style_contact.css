@@ -29,6 +29,13 @@ textarea {
 	left: 5%;
 	top: 200px;
 }
+.map p {
+  display: inline-block;
+  position: relative;
+  top: 220px;
+  left: -300px;
+  color: black;
+}
 ul {
 	list-style: none;
 }
