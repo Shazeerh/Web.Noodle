@@ -5,3 +5,4 @@ Directives:
     - Insertion d'images et liens externes
     - Utilisation de HTML et CSS
     - Pas de d'obligation de fournir un projet responsive
+
